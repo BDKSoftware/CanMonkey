@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4FDDB1F4700BECBF09A1989D /* Pods_CanMonkey.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D16CD83B126ACE26BC14A7EE /* Pods_CanMonkey.framework */; };
 		F6FEF99B259E46D5008A8E07 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FEF99A259E46D5008A8E07 /* AppDelegate.swift */; };
 		F6FEF99D259E46D5008A8E07 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FEF99C259E46D5008A8E07 /* SceneDelegate.swift */; };
 		F6FEF99F259E46D5008A8E07 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FEF99E259E46D5008A8E07 /* ContentView.swift */; };
@@ -25,6 +26,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		17D8670E079FFD601404323C /* Pods-CanMonkey.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CanMonkey.debug.xcconfig"; path = "Target Support Files/Pods-CanMonkey/Pods-CanMonkey.debug.xcconfig"; sourceTree = "<group>"; };
+		D16CD83B126ACE26BC14A7EE /* Pods_CanMonkey.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CanMonkey.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD94756FDA9CAE0AAD166050 /* Pods-CanMonkey.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CanMonkey.release.xcconfig"; path = "Target Support Files/Pods-CanMonkey/Pods-CanMonkey.release.xcconfig"; sourceTree = "<group>"; };
 		F6FEF997259E46D5008A8E07 /* CanMonkey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CanMonkey.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6FEF99A259E46D5008A8E07 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F6FEF99C259E46D5008A8E07 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,17 +53,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4FDDB1F4700BECBF09A1989D /* Pods_CanMonkey.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2DC6C495D7F2EFAD351D76A5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				17D8670E079FFD601404323C /* Pods-CanMonkey.debug.xcconfig */,
+				DD94756FDA9CAE0AAD166050 /* Pods-CanMonkey.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7F1A7A289F668D7A036A7149 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D16CD83B126ACE26BC14A7EE /* Pods_CanMonkey.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F6FEF98E259E46D5008A8E07 = {
 			isa = PBXGroup;
 			children = (
 				F6FEF999259E46D5008A8E07 /* CanMonkey */,
 				F6FEF998259E46D5008A8E07 /* Products */,
+				2DC6C495D7F2EFAD351D76A5 /* Pods */,
+				7F1A7A289F668D7A036A7149 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,9 +150,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F6FEF9AE259E46D8008A8E07 /* Build configuration list for PBXNativeTarget "CanMonkey" */;
 			buildPhases = (
+				6E167CDCEB9630964BB18AE9 /* [CP] Check Pods Manifest.lock */,
 				F6FEF993259E46D5008A8E07 /* Sources */,
 				F6FEF994259E46D5008A8E07 /* Frameworks */,
 				F6FEF995259E46D5008A8E07 /* Resources */,
+				4EFF4712A8408FA05368619F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -182,6 +209,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4EFF4712A8408FA05368619F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CanMonkey/Pods-CanMonkey-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CanMonkey/Pods-CanMonkey-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CanMonkey/Pods-CanMonkey-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6E167CDCEB9630964BB18AE9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CanMonkey-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F6FEF993259E46D5008A8E07 /* Sources */ = {
@@ -335,6 +404,7 @@
 		};
 		F6FEF9AF259E46D8008A8E07 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17D8670E079FFD601404323C /* Pods-CanMonkey.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -356,6 +426,7 @@
 		};
 		F6FEF9B0259E46D8008A8E07 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD94756FDA9CAE0AAD166050 /* Pods-CanMonkey.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
