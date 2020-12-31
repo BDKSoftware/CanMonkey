@@ -48,7 +48,7 @@ struct LoginScreen: View {
             
             HStack(alignment: .center){
                 
-                NavigationLink(destination: HomeScreen()){
+                NavigationLink(destination: HomeNavScreen()){
                     Text("Login")
                         .foregroundColor(.orange)
                         .padding(.vertical)
@@ -80,6 +80,8 @@ struct LoginScreen: View {
         
         .background(SwiftUI.Color.orange.edgesIgnoringSafeArea(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/))
         .textFieldStyle(RoundedBorderTextFieldStyle())
+        .navigationBarTitle("")
+        .navigationBarHidden(true)
         
         
     }

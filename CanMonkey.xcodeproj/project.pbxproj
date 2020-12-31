@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		4FDDB1F4700BECBF09A1989D /* Pods_CanMonkey.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D16CD83B126ACE26BC14A7EE /* Pods_CanMonkey.framework */; };
+		F67BE8F7259E82A400B36D6A /* CanCleaning.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67BE8F6259E82A400B36D6A /* CanCleaning.swift */; };
+		F67BE8FD259E831800B36D6A /* OneWeekOnDemandScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67BE8FC259E831800B36D6A /* OneWeekOnDemandScreen.swift */; };
+		F67BE901259E832500B36D6A /* TwoWeekOnDemandScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67BE900259E832500B36D6A /* TwoWeekOnDemandScreen.swift */; };
 		F6FEF99B259E46D5008A8E07 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FEF99A259E46D5008A8E07 /* AppDelegate.swift */; };
 		F6FEF99D259E46D5008A8E07 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FEF99C259E46D5008A8E07 /* SceneDelegate.swift */; };
 		F6FEF99F259E46D5008A8E07 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FEF99E259E46D5008A8E07 /* ContentView.swift */; };
@@ -23,12 +26,19 @@
 		F6FEF9C6259E47D8008A8E07 /* OnDemandScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FEF9C5259E47D8008A8E07 /* OnDemandScreen.swift */; };
 		F6FEF9C9259E47EA008A8E07 /* PaymentInfoScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FEF9C8259E47EA008A8E07 /* PaymentInfoScreen.swift */; };
 		F6FEF9CC259E4801008A8E07 /* MyAccountScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FEF9CB259E4801008A8E07 /* MyAccountScreen.swift */; };
+		F6FEF9F9259E72DC008A8E07 /* HomeNavScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FEF9F8259E72DC008A8E07 /* HomeNavScreen.swift */; };
+		F6FEF9FC259E78F7008A8E07 /* LoginScreenNav.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FEF9FB259E78F7008A8E07 /* LoginScreenNav.swift */; };
+		F6FEF9FF259E7976008A8E07 /* NewSubScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FEF9FE259E7976008A8E07 /* NewSubScreen.swift */; };
+		F6FEFA02259E798B008A8E07 /* ExistingSubScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FEFA01259E798B008A8E07 /* ExistingSubScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		17D8670E079FFD601404323C /* Pods-CanMonkey.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CanMonkey.debug.xcconfig"; path = "Target Support Files/Pods-CanMonkey/Pods-CanMonkey.debug.xcconfig"; sourceTree = "<group>"; };
 		D16CD83B126ACE26BC14A7EE /* Pods_CanMonkey.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CanMonkey.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD94756FDA9CAE0AAD166050 /* Pods-CanMonkey.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CanMonkey.release.xcconfig"; path = "Target Support Files/Pods-CanMonkey/Pods-CanMonkey.release.xcconfig"; sourceTree = "<group>"; };
+		F67BE8F6259E82A400B36D6A /* CanCleaning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanCleaning.swift; sourceTree = "<group>"; };
+		F67BE8FC259E831800B36D6A /* OneWeekOnDemandScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneWeekOnDemandScreen.swift; sourceTree = "<group>"; };
+		F67BE900259E832500B36D6A /* TwoWeekOnDemandScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoWeekOnDemandScreen.swift; sourceTree = "<group>"; };
 		F6FEF997259E46D5008A8E07 /* CanMonkey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CanMonkey.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6FEF99A259E46D5008A8E07 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F6FEF99C259E46D5008A8E07 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -46,6 +56,10 @@
 		F6FEF9C5259E47D8008A8E07 /* OnDemandScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnDemandScreen.swift; sourceTree = "<group>"; };
 		F6FEF9C8259E47EA008A8E07 /* PaymentInfoScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentInfoScreen.swift; sourceTree = "<group>"; };
 		F6FEF9CB259E4801008A8E07 /* MyAccountScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAccountScreen.swift; sourceTree = "<group>"; };
+		F6FEF9F8259E72DC008A8E07 /* HomeNavScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeNavScreen.swift; sourceTree = "<group>"; };
+		F6FEF9FB259E78F7008A8E07 /* LoginScreenNav.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreenNav.swift; sourceTree = "<group>"; };
+		F6FEF9FE259E7976008A8E07 /* NewSubScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewSubScreen.swift; sourceTree = "<group>"; };
+		F6FEFA01259E798B008A8E07 /* ExistingSubScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExistingSubScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +89,27 @@
 				D16CD83B126ACE26BC14A7EE /* Pods_CanMonkey.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F67BE8FA259E82E200B36D6A /* Subscription */ = {
+			isa = PBXGroup;
+			children = (
+				F6FEF9FE259E7976008A8E07 /* NewSubScreen.swift */,
+				F6FEF9C1259E47C8008A8E07 /* SubscriptionScreen.swift */,
+				F6FEFA01259E798B008A8E07 /* ExistingSubScreen.swift */,
+			);
+			path = Subscription;
+			sourceTree = "<group>";
+		};
+		F67BE8FB259E82EE00B36D6A /* OnDemand */ = {
+			isa = PBXGroup;
+			children = (
+				F67BE8F6259E82A400B36D6A /* CanCleaning.swift */,
+				F6FEF9C5259E47D8008A8E07 /* OnDemandScreen.swift */,
+				F67BE8FC259E831800B36D6A /* OneWeekOnDemandScreen.swift */,
+				F67BE900259E832500B36D6A /* TwoWeekOnDemandScreen.swift */,
+			);
+			path = OnDemand;
 			sourceTree = "<group>";
 		};
 		F6FEF98E259E46D5008A8E07 = {
@@ -123,12 +158,14 @@
 		F6FEF9B2259E4722008A8E07 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				F67BE8FB259E82EE00B36D6A /* OnDemand */,
+				F67BE8FA259E82E200B36D6A /* Subscription */,
 				F6FEF9B3259E472B008A8E07 /* Auth */,
 				F6FEF9BE259E478C008A8E07 /* HomeScreen.swift */,
-				F6FEF9C1259E47C8008A8E07 /* SubscriptionScreen.swift */,
-				F6FEF9C5259E47D8008A8E07 /* OnDemandScreen.swift */,
 				F6FEF9C8259E47EA008A8E07 /* PaymentInfoScreen.swift */,
 				F6FEF9CB259E4801008A8E07 /* MyAccountScreen.swift */,
+				F6FEF9F8259E72DC008A8E07 /* HomeNavScreen.swift */,
+				F6FEF9FB259E78F7008A8E07 /* LoginScreenNav.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -264,14 +301,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F67BE8FD259E831800B36D6A /* OneWeekOnDemandScreen.swift in Sources */,
+				F67BE8F7259E82A400B36D6A /* CanCleaning.swift in Sources */,
 				F6FEF99B259E46D5008A8E07 /* AppDelegate.swift in Sources */,
+				F6FEF9FC259E78F7008A8E07 /* LoginScreenNav.swift in Sources */,
 				F6FEF9C2259E47C8008A8E07 /* SubscriptionScreen.swift in Sources */,
 				F6FEF9B9259E4748008A8E07 /* CreateAccountScreen.swift in Sources */,
 				F6FEF99D259E46D5008A8E07 /* SceneDelegate.swift in Sources */,
 				F6FEF99F259E46D5008A8E07 /* ContentView.swift in Sources */,
 				F6FEF9BF259E478C008A8E07 /* HomeScreen.swift in Sources */,
+				F6FEFA02259E798B008A8E07 /* ExistingSubScreen.swift in Sources */,
+				F67BE901259E832500B36D6A /* TwoWeekOnDemandScreen.swift in Sources */,
+				F6FEF9FF259E7976008A8E07 /* NewSubScreen.swift in Sources */,
 				F6FEF9C9259E47EA008A8E07 /* PaymentInfoScreen.swift in Sources */,
 				F6FEF9CC259E4801008A8E07 /* MyAccountScreen.swift in Sources */,
+				F6FEF9F9259E72DC008A8E07 /* HomeNavScreen.swift in Sources */,
 				F6FEF9BC259E477D008A8E07 /* PropertyInfoScreen.swift in Sources */,
 				F6FEF9C6259E47D8008A8E07 /* OnDemandScreen.swift in Sources */,
 				F6FEF9A2259E46D5008A8E07 /* CanMonkey.xcdatamodeld in Sources */,
