@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -66,7 +66,6 @@
 				17D8670E079FFD601404323C /* Pods-CanMonkey.debug.xcconfig */,
 				DD94756FDA9CAE0AAD166050 /* Pods-CanMonkey.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -99,6 +98,7 @@
 		F6FEF999259E46D5008A8E07 /* CanMonkey */ = {
 			isa = PBXGroup;
 			children = (
+				F6FEF9F2259E67B5008A8E07 /* Components */,
 				F6FEF9B2259E4722008A8E07 /* Screens */,
 				F6FEF9A3259E46D8008A8E07 /* Assets.xcassets */,
 				F6FEF99A259E46D5008A8E07 /* AppDelegate.swift */,
@@ -141,6 +141,13 @@
 				F6FEF9BB259E477D008A8E07 /* PropertyInfoScreen.swift */,
 			);
 			path = Auth;
+			sourceTree = "<group>";
+		};
+		F6FEF9F2259E67B5008A8E07 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -312,7 +319,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -373,7 +380,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -413,6 +420,7 @@
 				DEVELOPMENT_TEAM = HR94DX457K;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = CanMonkey/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -435,6 +443,7 @@
 				DEVELOPMENT_TEAM = HR94DX457K;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = CanMonkey/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
