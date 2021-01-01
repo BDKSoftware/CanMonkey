@@ -11,6 +11,7 @@
 		F67BE8F7259E82A400B36D6A /* CanCleaning.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67BE8F6259E82A400B36D6A /* CanCleaning.swift */; };
 		F67BE8FD259E831800B36D6A /* OneWeekOnDemandScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67BE8FC259E831800B36D6A /* OneWeekOnDemandScreen.swift */; };
 		F67BE901259E832500B36D6A /* TwoWeekOnDemandScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67BE900259E832500B36D6A /* TwoWeekOnDemandScreen.swift */; };
+		F6A3B55E259F97F00037849B /* CheckboxToggleStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A3B55D259F97F00037849B /* CheckboxToggleStyle.swift */; };
 		F6FEF99B259E46D5008A8E07 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FEF99A259E46D5008A8E07 /* AppDelegate.swift */; };
 		F6FEF99D259E46D5008A8E07 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FEF99C259E46D5008A8E07 /* SceneDelegate.swift */; };
 		F6FEF99F259E46D5008A8E07 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FEF99E259E46D5008A8E07 /* ContentView.swift */; };
@@ -39,6 +40,7 @@
 		F67BE8F6259E82A400B36D6A /* CanCleaning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanCleaning.swift; sourceTree = "<group>"; };
 		F67BE8FC259E831800B36D6A /* OneWeekOnDemandScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneWeekOnDemandScreen.swift; sourceTree = "<group>"; };
 		F67BE900259E832500B36D6A /* TwoWeekOnDemandScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoWeekOnDemandScreen.swift; sourceTree = "<group>"; };
+		F6A3B55D259F97F00037849B /* CheckboxToggleStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckboxToggleStyle.swift; sourceTree = "<group>"; };
 		F6FEF997259E46D5008A8E07 /* CanMonkey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CanMonkey.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6FEF99A259E46D5008A8E07 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F6FEF99C259E46D5008A8E07 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -183,6 +185,7 @@
 		F6FEF9F2259E67B5008A8E07 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				F6A3B55D259F97F00037849B /* CheckboxToggleStyle.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -307,6 +310,7 @@
 				F6FEF9FC259E78F7008A8E07 /* LoginScreenNav.swift in Sources */,
 				F6FEF9C2259E47C8008A8E07 /* SubscriptionScreen.swift in Sources */,
 				F6FEF9B9259E4748008A8E07 /* CreateAccountScreen.swift in Sources */,
+				F6A3B55E259F97F00037849B /* CheckboxToggleStyle.swift in Sources */,
 				F6FEF99D259E46D5008A8E07 /* SceneDelegate.swift in Sources */,
 				F6FEF99F259E46D5008A8E07 /* ContentView.swift in Sources */,
 				F6FEF9BF259E478C008A8E07 /* HomeScreen.swift in Sources */,
